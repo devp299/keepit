@@ -6,7 +6,7 @@ const Layout = ({ children }: {children: React.ReactNode}) => {
     <div className='flex min-h-screen'>
         <section className='bg-brand p-6 hidden w-1/2 items-center justify-center lg:flex xl:w-2/5'>
             <div className='flex max-h-[700px] max-w-[430px] flex-col justify-center space-y-8'>
-                <Image src="/assets/icons/logo-full.svg" alt='logo' width={224} height={72} className='h-auto'/>
+                <Image src="/assets/icons/Logo.svg" alt='logo' width={224} height={72} className='h-auto'/>
                 <div className="space-y-2 text-white">
                     <h1 className='h1'>Manage your files the best way</h1>
                     <p className='body-2'>
